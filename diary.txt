@@ -1,0 +1,42 @@
+14/10/16	14:00	16:00	Looked at assignment for first time
+							Restructured code so that user details are formatted in a certain way and displayed correctly
+							Sensitive information is filtered out too
+
+18/10/16	14:45	16:30	Messed around with CSS to personalise site. Just getting comfortable with CSS and figuring out what does what. 
+							Lots of googling different parameters. 
+
+19/10/16	22:00	24:00	Added in profile picture display. Messed with CSS some more. 
+							Added in background colours and personalised titles and colours. 
+
+20/10/16	10:20	11:00	Added in the feature to show a stock image if no profile picture is available. 
+
+20/10/16	17:00	22:00	Added in posts of users. Need to arrange them in the correct order however.  
+							Restructured code entirely so instead of returning things to print the subroutines just printed them out.
+							Doing this allowed me to format my page to how I wanted it. Through doing this it allowed me to display posts one after the other. 
+
+21/10/16	10:15	12:45	Added in friends list feature. Currently only displays zIDs of friends. Need to convert it to actual names and pictures.
+							Also need to link friends to the actual pages. Have no idea how to do that currently. Will ask around to see how others are tackling it. 
+
+23/10/16	20:00	22:00	Added in skeleton for a login and search feature. 	
+
+24/10/16	15:00	18:00	Added in pictures and names instead of zIDs in the matelist. Also made them all hyperlinks to the specified pages.
+							Had to change URL of website so profileID is visible. May be a security flaw or something.
+
+24/10/16	21:00	24:00	Implemented the search feature fully with profile pictures and links to the searched people's pages.
+
+25/10/16 	10:10	12:00	Got login feature working mostly. However whenever the page refreshes it asks to login again and again.
+							Need to implement a persistent login through implementing cookies which I have no idea how to do. More research ahead.
+
+25/10/16	15:30	19:00	Restructured code so its more legible 
+							(divided login, search, posts, matelists all into separate subfunctions that are called in main rather than altogether)
+							Also added in functional retry button into the login page on failed attempts
+							Fixed CSS so there is no overflowing text/images. This was fixed with the addition of a scroll bar.
+
+25/10/16	21:00	23:00	FINALLY GOT COOKIES WORKING! Unsure if what I did was the right way but will get clarification at lab tomorrow. 
+
+26/10/16	12:00	14:00	Added in a logout feature. Basically just removes cookies on press of logout button. 
+							Also began work on adding in comments and replies to posts. Think I may need to restructure how Ive stored posts so far. 
+
+26/10/16	18:00	19:45	After great struggling. Got comments working FULLY!!!!!. Wrote some subroutines for converting zIDs to names and indexes which helped greatly. 		
+
+27/10/16	14:00	16:00	Added in a make post button. Was quite difficult how to make a directory and write to that directory in perl. Lots of fiddling around
